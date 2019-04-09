@@ -13,7 +13,7 @@ class IframeResizerContentWindowAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@bower/iframe-resizer/js';
+    public $sourcePath = '@npm/iframe-resizer/js';
 
     /**
      * @inheritdoc

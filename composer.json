@@ -1,0 +1,31 @@
+{
+    "name": "mikk150/yii2-iframe-resizer",
+    "description": "yii2 iframe resizer widget",
+    "type": "yii2-extension",
+    "keywords": ["yii2","widget","iframeresizer"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Mikk Tendermann",
+            "email": "mikk150@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "bower-asset/iframe-resizer": "^3.0.0"
+    },
+    "require-dev": {
+        "codeception/base": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "mikk150\\iframeresizer\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

@@ -2,6 +2,7 @@
 
 Under development
 -----------------
+- Add compatibility to iframe resizer version 4
 
 1.0.0 2019-04-09
 -----------------

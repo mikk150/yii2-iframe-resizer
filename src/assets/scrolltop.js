@@ -19,7 +19,6 @@
 
     $.fn.height = function (margin, value) {
         if (!margin && this.get(0).nodeType === 9 && 'parentIFrame' in window) {
-            console.log('should get from iframeresizer');
             return currentPageInfo.documentHeight;
         }
         var boundHeight = height.bind(this);
@@ -32,7 +31,6 @@
         }
 
         if (value && isWindow(this.get(0)) && 'parentIFrame' in window) {
-            console.log(value);
             parentIFrame.scrollTo(0, value);
         }
 

@@ -3,6 +3,10 @@
 Under development
 -----------------
 
+1.2.1 2023-08-02
+-----------------
+- Hotfix: Add missing jquery on dependency
+
 1.2.0 2023-08-01
 -----------------
 - Add fix for page not scrolling to top when form is submitted

@@ -3,6 +3,7 @@
 namespace mikk150\iframeresizer;
 
 use yii\web\AssetBundle;
+use yii\web\JqueryAsset;
 
 /**
  * Class IframeResizerScrollTopContentWindowAsset
@@ -27,5 +28,6 @@ class IframeResizerScrollTopContentWindowAsset extends AssetBundle
      */
     public $depends = [
         IframeResizerContentWindowAsset::class,
+        JqueryAsset::class,
     ];
 }

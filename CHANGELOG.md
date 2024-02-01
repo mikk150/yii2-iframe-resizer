@@ -3,6 +3,10 @@
 Under development
 -----------------
 
+1.2.2 2024-01-01
+-----------------
+- Hotfix: Fix minimized versions now missing
+
 1.2.1 2023-08-02
 -----------------
 - Hotfix: Add missing jquery on dependency

@@ -19,6 +19,6 @@ class IframeResizerAsset extends AssetBundle
      * @inheritdoc
      */
     public $js = [
-        'iframeResizer.min.js'
+        'iframeResizer.js'
     ];
 }

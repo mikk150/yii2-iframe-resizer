@@ -19,7 +19,7 @@ class IframeResizerContentWindowAsset extends AssetBundle
      * @inheritdoc
      */
     public $js = [
-        'iframeResizer.contentWindow.min.js'
+        'iframeResizer.contentWindow.js'
     ];
 
     /**
